@@ -8,6 +8,7 @@ contract SupplyChain {
   mapping(uint => Item) public items;
 
   enum State { ForSale, Sold, Shipped, Received }
+  
   struct Item { 
     string name;
     uint sku;
